@@ -12,7 +12,7 @@ export const lightTheme = createTheme({
         },
     },
     typography: {
-        fontFamily: "tanha, vazir, roboto",
+        fontFamily: "IRANSans, vazir, roboto",
     },
 });
 
@@ -28,6 +28,6 @@ export const darkTheme = createTheme({
         },
     },
     typography: {
-        fontFamily: "tanha, vazir, roboto",
+        fontFamily: "IRANSans, roboto",
     },
 });

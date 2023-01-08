@@ -8,7 +8,7 @@ const PagesContainer = ({ children }) => {
             md={9}
             lg={10}
             xl={10}
-            sx={{ backgroundColor: "whitesmoke" }}
+            sx={{ backgroundColor: "whitesmoke" ,fontFamily:"IRANSans" }}
         >
             {children}
         </Grid>

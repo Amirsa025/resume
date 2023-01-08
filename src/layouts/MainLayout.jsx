@@ -10,18 +10,17 @@ import Grid from "@mui/material/Unstable_Grid2";
 import { lightTheme, darkTheme } from "./theme";
 
 const cacheRTL = createCache({
-    key: "muirtl",
+    key: "mui-rtl",
     stylisPlugins: [prefixer, rtlPlugin],
 });
 
 const MainLayout = ({ children, mode }) => {
-    const theme = mode === "dark" ? darkTheme : lightTheme;
-
+    const themes = mode === "dark" ? darkTheme : lightTheme;
     return (
         <CacheProvider value={cacheRTL}>
-            <ThemeProvider theme={theme}>
+            <ThemeProvider theme={themes}>
                 <HelmetProvider>
-                    <Grid container sx={{ height: "100vh" }}>
+                    <Grid container sx={{ height: "100vh" }} >
                         {children}
                     </Grid>
                 </HelmetProvider>

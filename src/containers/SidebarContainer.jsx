@@ -4,7 +4,6 @@ import { grey } from "@mui/material/colors";
 
 const SidebarContainer = ({ children }) => {
     const theme = useTheme();
-
     return (
         <Grid
             xs={0}
