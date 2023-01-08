@@ -1,7 +1,7 @@
 import { useEffect, useRef, useCallback, useState } from "react";
 
 import { Helmet } from "react-helmet-async";
-import { Box, Typography } from "@mui/material";
+import {Box, Button, Typography} from "@mui/material";
 import Typed from "typed.js";
 import TextTransition, { presets } from "react-text-transition";
 import Particles from "react-particles";
@@ -112,6 +112,9 @@ const Home = ({ helmetTitle }) => {
             </Box>
             <Box   sx={{ mt: 4 }}>
                 <SocialMediaIcons />
+                <Button variant="contained" href="https://drive.google.com/file/d/11NpFJ62HhDFx6QBWmCIob6t26TvDhG4o/view?usp=share_link" className={"َApp"}>
+                    دانلود رزومه
+                </Button>
             </Box>
         </Box>
     );

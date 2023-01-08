@@ -50,7 +50,7 @@ const SidebarHeader = () => {
                 </Typography>
             )}
 
-            <SocialMediaIcons />
+                <SocialMediaIcons />
         </>
     );
 };
